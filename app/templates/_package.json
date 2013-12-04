@@ -1,0 +1,21 @@
+{
+  "name": "<%= _.slugify(props.projectName) %>",
+  "version": "0.0.0",
+  "description": "<%= props.projectDescription %>",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    <%= devDependencies.join(',\n    ') %>
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "my project"
+  ],
+  "author": "<%= props.author %>",
+  "license": "<%= props.license %>"
+}

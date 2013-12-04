@@ -1,0 +1,42 @@
+{
+  "name": "generator-front-end-basic",
+  "version": "0.1.0",
+  "description": "A basic front-end project generator. Installs LESS/SASS, concat, watch, jasmine, jshint.",
+  "keywords": [
+    "yeoman-generator",
+    "front end"
+  ],
+  "homepage": "https://github.com/austinhappel/generator-front-end-basic",
+  "bugs": "https://github.com/austinhappel/generator-front-end-basic/issues",
+  "author": {
+    "name": "Austin Happel",
+    "email": "austin@austinhappel.com",
+    "url": "https://github.com/austinhappel"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/austinhappel/generator-front-end-basic.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
